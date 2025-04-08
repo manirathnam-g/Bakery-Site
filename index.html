@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sweet Crumbs Bakery</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff8f0;
+      color: #333;
+    }
+    header {
+      background-color: #ff6f61;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    nav {
+      background-color: #ffe0d3;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1548365328-849c2f7d4e4e') center/cover no-repeat;
+      height: 300px;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 1rem;
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .card h3 {
+      margin-top: 0.5rem;
+    }
+    footer {
+      background-color: #ff6f61;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sweet Crumbs Bakery</h1>
+    <p>Freshly Baked Goodness Everyday</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Menu</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="hero"></div>
+
+  <section>
+    <h2>Our Specialties</h2>
+    <div class="products">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1608198093002-ad4e005484cf" alt="Cupcake">
+        <h3>Chocolate Cupcakes</h3>
+        <p>Moist, rich, and topped with buttercream frosting.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1548946526-f69e2424cf45" alt="Bread">
+        <h3>Artisan Bread</h3>
+        <p>Freshly baked sourdough and multigrain loaves.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1517685352821-92cf88aee5a5" alt="Cake">
+        <h3>Custom Cakes</h3>
+        <p>Beautiful designs for birthdays, weddings & more.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <p>Want to place an order or visit us? Reach out below!</p>
+    <p>Email: orders@sweetcrumbs.com</p>
+    <p>Phone: +91-9876543210</p>
+    <p>Instagram: @sweetcrumbsbakery</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Sweet Crumbs Bakery. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
