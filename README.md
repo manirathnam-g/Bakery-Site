@@ -4,7 +4,7 @@ This code is for Bakery-site
 # Indian Sweet Bakery Website
 
 This is the website for the **Indian Sweet Bakery** showcasing our sweet delights like Gulab Jamun, Samosas, and Biscuits.
-
+  
 ## Files
 
 - `index.html`: Main HTML structure.
